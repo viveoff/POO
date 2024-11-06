@@ -15,7 +15,8 @@
 					"source" : ".",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1
 					]
 				}
 			],
@@ -30,12 +31,20 @@
 					"name" : "POO",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1
 					]
 				}
 			],
 			"targets" : 
 			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Lab_3::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Lab_3-Debug-06613b91ae3c3d8e0021.json",
+					"name" : "Lab_3",
+					"projectIndex" : 0
+				},
 				{
 					"directoryIndex" : 0,
 					"id" : "POO::@6890427a1f51a3e7e1df",
