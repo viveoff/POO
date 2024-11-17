@@ -237,6 +237,43 @@ build Laptop: CXX_EXECUTABLE_LINKER__Laptop_Debug CMakeFiles/Laptop.dir/Test/Lap
   TARGET_FILE = Laptop
   TARGET_PDB = Laptop.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target Patrat
+
+
+#############################################
+# Order-only phony target for Patrat
+
+build cmake_object_order_depends_target_Patrat: phony || .
+
+build CMakeFiles/Patrat.dir/Test/Patrat/main.cpp.o: CXX_COMPILER__Patrat_unscanned_Debug /Users/vladshorodok/Desktop/Home/University/POO/Test/Patrat/main.cpp || cmake_object_order_depends_target_Patrat
+  DEP_FILE = CMakeFiles/Patrat.dir/Test/Patrat/main.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -mmacosx-version-min=15.0 -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/Patrat.dir
+  OBJECT_FILE_DIR = CMakeFiles/Patrat.dir/Test/Patrat
+
+build CMakeFiles/Patrat.dir/Test/Patrat/patrat.cpp.o: CXX_COMPILER__Patrat_unscanned_Debug /Users/vladshorodok/Desktop/Home/University/POO/Test/Patrat/patrat.cpp || cmake_object_order_depends_target_Patrat
+  DEP_FILE = CMakeFiles/Patrat.dir/Test/Patrat/patrat.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -mmacosx-version-min=15.0 -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/Patrat.dir
+  OBJECT_FILE_DIR = CMakeFiles/Patrat.dir/Test/Patrat
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Patrat
+
+
+#############################################
+# Link the executable Patrat
+
+build Patrat: CXX_EXECUTABLE_LINKER__Patrat_Debug CMakeFiles/Patrat.dir/Test/Patrat/main.cpp.o CMakeFiles/Patrat.dir/Test/Patrat/patrat.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -mmacosx-version-min=15.0
+  OBJECT_DIR = CMakeFiles/Patrat.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = Patrat
+  TARGET_PDB = Patrat.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -271,7 +308,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/vladshorodok/Desktop/Home/University/POO/cmake-build-debug
 
-build all: phony Lab_3 Lab_5 Student_Exemplu Student Laptop
+build all: phony Lab_3 Lab_5 Student_Exemplu Student Laptop Patrat
 
 # =============================================================================
 # Built-in targets

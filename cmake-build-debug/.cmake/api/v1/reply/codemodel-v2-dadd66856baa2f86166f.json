@@ -19,7 +19,8 @@
 						1,
 						2,
 						3,
-						4
+						4,
+						5
 					]
 				}
 			],
@@ -38,7 +39,8 @@
 						1,
 						2,
 						3,
-						4
+						4,
+						5
 					]
 				}
 			],
@@ -63,6 +65,13 @@
 					"id" : "Laptop::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-Laptop-Debug-10898db2a6804e6c6e03.json",
 					"name" : "Laptop",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Patrat::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Patrat-Debug-13dc7b2af960c24874ba.json",
+					"name" : "Patrat",
 					"projectIndex" : 0
 				},
 				{

@@ -19,3 +19,6 @@ add_executable(Student Test/Student/main.cpp
 add_executable(Laptop Test/Laptop/main.cpp
         Test/Laptop/Laptop.h
         Test/Laptop/Laptop.cpp)
+add_executable(Patrat Test/Patrat/main.cpp
+        Test/Patrat/patrat.h
+        Test/Patrat/patrat.cpp)
