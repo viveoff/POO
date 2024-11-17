@@ -8,8 +8,6 @@ using namespace std;
 
 
 
-
-
 int main()
 {
     punct p1("Punct",4,5);

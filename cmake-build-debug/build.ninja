@@ -41,37 +41,6 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = /Users/vladshorodok/Desktop/Home/University/POO/cmake-build-debug/
 # =============================================================================
-# Object build statements for EXECUTABLE target POO
-
-
-#############################################
-# Order-only phony target for POO
-
-build cmake_object_order_depends_target_POO: phony || .
-
-build CMakeFiles/POO.dir/main.cpp.o: CXX_COMPILER__POO_unscanned_Debug /Users/vladshorodok/Desktop/Home/University/POO/main.cpp || cmake_object_order_depends_target_POO
-  DEP_FILE = CMakeFiles/POO.dir/main.cpp.o.d
-  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -mmacosx-version-min=15.0 -fcolor-diagnostics
-  OBJECT_DIR = CMakeFiles/POO.dir
-  OBJECT_FILE_DIR = CMakeFiles/POO.dir
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target POO
-
-
-#############################################
-# Link the executable POO
-
-build POO: CXX_EXECUTABLE_LINKER__POO_Debug CMakeFiles/POO.dir/main.cpp.o
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -mmacosx-version-min=15.0
-  OBJECT_DIR = CMakeFiles/POO.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = POO
-  TARGET_PDB = POO.dbg
-
-# =============================================================================
 # Object build statements for EXECUTABLE target Lab_3
 
 
@@ -114,6 +83,160 @@ build Lab_3: CXX_EXECUTABLE_LINKER__Lab_3_Debug CMakeFiles/Lab_3.dir/Lab_03/main
   TARGET_FILE = Lab_3
   TARGET_PDB = Lab_3.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target Lab_5
+
+
+#############################################
+# Order-only phony target for Lab_5
+
+build cmake_object_order_depends_target_Lab_5: phony || .
+
+build CMakeFiles/Lab_5.dir/Lab_05/main.cpp.o: CXX_COMPILER__Lab_5_unscanned_Debug /Users/vladshorodok/Desktop/Home/University/POO/Lab_05/main.cpp || cmake_object_order_depends_target_Lab_5
+  DEP_FILE = CMakeFiles/Lab_5.dir/Lab_05/main.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -mmacosx-version-min=15.0 -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/Lab_5.dir
+  OBJECT_FILE_DIR = CMakeFiles/Lab_5.dir/Lab_05
+
+build CMakeFiles/Lab_5.dir/Lab_05/punct.cpp.o: CXX_COMPILER__Lab_5_unscanned_Debug /Users/vladshorodok/Desktop/Home/University/POO/Lab_05/punct.cpp || cmake_object_order_depends_target_Lab_5
+  DEP_FILE = CMakeFiles/Lab_5.dir/Lab_05/punct.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -mmacosx-version-min=15.0 -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/Lab_5.dir
+  OBJECT_FILE_DIR = CMakeFiles/Lab_5.dir/Lab_05
+
+build CMakeFiles/Lab_5.dir/Lab_05/triunghi.cpp.o: CXX_COMPILER__Lab_5_unscanned_Debug /Users/vladshorodok/Desktop/Home/University/POO/Lab_05/triunghi.cpp || cmake_object_order_depends_target_Lab_5
+  DEP_FILE = CMakeFiles/Lab_5.dir/Lab_05/triunghi.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -mmacosx-version-min=15.0 -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/Lab_5.dir
+  OBJECT_FILE_DIR = CMakeFiles/Lab_5.dir/Lab_05
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Lab_5
+
+
+#############################################
+# Link the executable Lab_5
+
+build Lab_5: CXX_EXECUTABLE_LINKER__Lab_5_Debug CMakeFiles/Lab_5.dir/Lab_05/main.cpp.o CMakeFiles/Lab_5.dir/Lab_05/punct.cpp.o CMakeFiles/Lab_5.dir/Lab_05/triunghi.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -mmacosx-version-min=15.0
+  OBJECT_DIR = CMakeFiles/Lab_5.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = Lab_5
+  TARGET_PDB = Lab_5.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Student_Exemplu
+
+
+#############################################
+# Order-only phony target for Student_Exemplu
+
+build cmake_object_order_depends_target_Student_Exemplu: phony || .
+
+build CMakeFiles/Student_Exemplu.dir/Lab_02/Student/main.cpp.o: CXX_COMPILER__Student_Exemplu_unscanned_Debug /Users/vladshorodok/Desktop/Home/University/POO/Lab_02/Student/main.cpp || cmake_object_order_depends_target_Student_Exemplu
+  DEP_FILE = CMakeFiles/Student_Exemplu.dir/Lab_02/Student/main.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -mmacosx-version-min=15.0 -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/Student_Exemplu.dir
+  OBJECT_FILE_DIR = CMakeFiles/Student_Exemplu.dir/Lab_02/Student
+
+build CMakeFiles/Student_Exemplu.dir/Lab_02/Student/Student.cpp.o: CXX_COMPILER__Student_Exemplu_unscanned_Debug /Users/vladshorodok/Desktop/Home/University/POO/Lab_02/Student/Student.cpp || cmake_object_order_depends_target_Student_Exemplu
+  DEP_FILE = CMakeFiles/Student_Exemplu.dir/Lab_02/Student/Student.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -mmacosx-version-min=15.0 -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/Student_Exemplu.dir
+  OBJECT_FILE_DIR = CMakeFiles/Student_Exemplu.dir/Lab_02/Student
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Student_Exemplu
+
+
+#############################################
+# Link the executable Student_Exemplu
+
+build Student_Exemplu: CXX_EXECUTABLE_LINKER__Student_Exemplu_Debug CMakeFiles/Student_Exemplu.dir/Lab_02/Student/main.cpp.o CMakeFiles/Student_Exemplu.dir/Lab_02/Student/Student.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -mmacosx-version-min=15.0
+  OBJECT_DIR = CMakeFiles/Student_Exemplu.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = Student_Exemplu
+  TARGET_PDB = Student_Exemplu.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Student
+
+
+#############################################
+# Order-only phony target for Student
+
+build cmake_object_order_depends_target_Student: phony || .
+
+build CMakeFiles/Student.dir/Test/Student/main.cpp.o: CXX_COMPILER__Student_unscanned_Debug /Users/vladshorodok/Desktop/Home/University/POO/Test/Student/main.cpp || cmake_object_order_depends_target_Student
+  DEP_FILE = CMakeFiles/Student.dir/Test/Student/main.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -mmacosx-version-min=15.0 -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/Student.dir
+  OBJECT_FILE_DIR = CMakeFiles/Student.dir/Test/Student
+
+build CMakeFiles/Student.dir/Test/Student/Student.cpp.o: CXX_COMPILER__Student_unscanned_Debug /Users/vladshorodok/Desktop/Home/University/POO/Test/Student/Student.cpp || cmake_object_order_depends_target_Student
+  DEP_FILE = CMakeFiles/Student.dir/Test/Student/Student.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -mmacosx-version-min=15.0 -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/Student.dir
+  OBJECT_FILE_DIR = CMakeFiles/Student.dir/Test/Student
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Student
+
+
+#############################################
+# Link the executable Student
+
+build Student: CXX_EXECUTABLE_LINKER__Student_Debug CMakeFiles/Student.dir/Test/Student/main.cpp.o CMakeFiles/Student.dir/Test/Student/Student.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -mmacosx-version-min=15.0
+  OBJECT_DIR = CMakeFiles/Student.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = Student
+  TARGET_PDB = Student.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Laptop
+
+
+#############################################
+# Order-only phony target for Laptop
+
+build cmake_object_order_depends_target_Laptop: phony || .
+
+build CMakeFiles/Laptop.dir/Test/Laptop/main.cpp.o: CXX_COMPILER__Laptop_unscanned_Debug /Users/vladshorodok/Desktop/Home/University/POO/Test/Laptop/main.cpp || cmake_object_order_depends_target_Laptop
+  DEP_FILE = CMakeFiles/Laptop.dir/Test/Laptop/main.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -mmacosx-version-min=15.0 -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/Laptop.dir
+  OBJECT_FILE_DIR = CMakeFiles/Laptop.dir/Test/Laptop
+
+build CMakeFiles/Laptop.dir/Test/Laptop/Laptop.cpp.o: CXX_COMPILER__Laptop_unscanned_Debug /Users/vladshorodok/Desktop/Home/University/POO/Test/Laptop/Laptop.cpp || cmake_object_order_depends_target_Laptop
+  DEP_FILE = CMakeFiles/Laptop.dir/Test/Laptop/Laptop.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -mmacosx-version-min=15.0 -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/Laptop.dir
+  OBJECT_FILE_DIR = CMakeFiles/Laptop.dir/Test/Laptop
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Laptop
+
+
+#############################################
+# Link the executable Laptop
+
+build Laptop: CXX_EXECUTABLE_LINKER__Laptop_Debug CMakeFiles/Laptop.dir/Test/Laptop/main.cpp.o CMakeFiles/Laptop.dir/Test/Laptop/Laptop.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -mmacosx-version-min=15.0
+  OBJECT_DIR = CMakeFiles/Laptop.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = Laptop
+  TARGET_PDB = Laptop.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -148,7 +271,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/vladshorodok/Desktop/Home/University/POO/cmake-build-debug
 
-build all: phony POO Lab_3
+build all: phony Lab_3 Lab_5 Student_Exemplu Student Laptop
 
 # =============================================================================
 # Built-in targets

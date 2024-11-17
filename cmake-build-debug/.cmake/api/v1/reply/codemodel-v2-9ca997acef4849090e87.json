@@ -16,7 +16,10 @@
 					"targetIndexes" : 
 					[
 						0,
-						1
+						1,
+						2,
+						3,
+						4
 					]
 				}
 			],
@@ -32,7 +35,10 @@
 					"targetIndexes" : 
 					[
 						0,
-						1
+						1,
+						2,
+						3,
+						4
 					]
 				}
 			],
@@ -47,9 +53,30 @@
 				},
 				{
 					"directoryIndex" : 0,
-					"id" : "POO::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-POO-Debug-a787b1959ec74cef58ad.json",
-					"name" : "POO",
+					"id" : "Lab_5::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Lab_5-Debug-84414e4db1341f6ab945.json",
+					"name" : "Lab_5",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Laptop::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Laptop-Debug-10898db2a6804e6c6e03.json",
+					"name" : "Laptop",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Student::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Student-Debug-a65607ee289033501255.json",
+					"name" : "Student",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Student_Exemplu::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Student_Exemplu-Debug-b50f6e3536477d8efbdf.json",
+					"name" : "Student_Exemplu",
 					"projectIndex" : 0
 				}
 			]

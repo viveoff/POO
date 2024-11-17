@@ -1,4 +1,7 @@
-/Users/vladshorodok/Desktop/Home/University/POO/cmake-build-debug/CMakeFiles/POO.dir
 /Users/vladshorodok/Desktop/Home/University/POO/cmake-build-debug/CMakeFiles/Lab_3.dir
+/Users/vladshorodok/Desktop/Home/University/POO/cmake-build-debug/CMakeFiles/Lab_5.dir
+/Users/vladshorodok/Desktop/Home/University/POO/cmake-build-debug/CMakeFiles/Student_Exemplu.dir
+/Users/vladshorodok/Desktop/Home/University/POO/cmake-build-debug/CMakeFiles/Student.dir
+/Users/vladshorodok/Desktop/Home/University/POO/cmake-build-debug/CMakeFiles/Laptop.dir
 /Users/vladshorodok/Desktop/Home/University/POO/cmake-build-debug/CMakeFiles/edit_cache.dir
 /Users/vladshorodok/Desktop/Home/University/POO/cmake-build-debug/CMakeFiles/rebuild_cache.dir
