@@ -7,12 +7,12 @@
 
 class Patrat {
 private:
-    double latura; // 0.0
+     double latura; // 0.0
 public:
     Patrat(double latura = 0.0);
     ~Patrat();
 
-    void setLatura(double latura);
+    void setLatura(const double latura);
     double getLatura();
     double calculeazaAria();
     double calculeazaPerimetru();

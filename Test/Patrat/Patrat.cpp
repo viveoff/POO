@@ -1,11 +1,9 @@
-//
-// Created by Vlad Shorodok on 17.11.2024.
-//
+
 #include <iostream>
 #include "Patrat.h"
 using namespace std;
 
-Patrat::Patrat(double latura) {
+    Patrat::Patrat(double latura) {
     this->latura = latura;
 }
 

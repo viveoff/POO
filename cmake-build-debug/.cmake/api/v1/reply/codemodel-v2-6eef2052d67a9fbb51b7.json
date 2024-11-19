@@ -20,7 +20,13 @@
 						2,
 						3,
 						4,
-						5
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11
 					]
 				}
 			],
@@ -40,12 +46,39 @@
 						2,
 						3,
 						4,
-						5
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11
 					]
 				}
 			],
 			"targets" : 
 			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Complex::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Complex-Debug-b3e1967a5e1d97dc7ceb.json",
+					"name" : "Complex",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Country::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Country-Debug-615d77a55160d165114c.json",
+					"name" : "Country",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Human::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Human-Debug-102ddbf902ec67be7dff.json",
+					"name" : "Human",
+					"projectIndex" : 0
+				},
 				{
 					"directoryIndex" : 0,
 					"id" : "Lab_3::@6890427a1f51a3e7e1df",
@@ -69,6 +102,13 @@
 				},
 				{
 					"directoryIndex" : 0,
+					"id" : "Masina::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Masina-Debug-8d32b9ea62f8df2bb986.json",
+					"name" : "Masina",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
 					"id" : "Patrat::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-Patrat-Debug-13dc7b2af960c24874ba.json",
 					"name" : "Patrat",
@@ -86,6 +126,20 @@
 					"id" : "Student_Exemplu::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-Student_Exemplu-Debug-b50f6e3536477d8efbdf.json",
 					"name" : "Student_Exemplu",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Vector::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Vector-Debug-d62ed1058b38b907f8f3.json",
+					"name" : "Vector",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "xyz::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-xyz-Debug-5dd73670f4a7b1dd1b16.json",
+					"name" : "xyz",
 					"projectIndex" : 0
 				}
 			]

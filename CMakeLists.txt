@@ -22,3 +22,18 @@ add_executable(Laptop Test/Laptop/main.cpp
 add_executable(Patrat Test/Patrat/main.cpp
         Test/Patrat/patrat.h
         Test/Patrat/patrat.cpp)
+add_executable(Complex Lab_06/main.cpp
+        Lab_06/Complex.cpp)
+add_executable(xyz Test/xyz/main.cpp)
+add_executable(Vector Test/Vector/main.cpp
+        Test/Vector/Vector.cpp
+        Test/Vector/Vector.h)
+add_executable(Masina Test/Masina/main.cpp
+        Test/Masina/Masina.h
+        Test/Masina/Masina.cpp)
+add_executable(Country Test/Country/main.cpp
+        Test/Country/Country.cpp
+        Test/Country/Country.h)
+add_executable(Human Test/Human/main.cpp
+        Test/Human/Human.cpp
+        Test/Human/Human.h)

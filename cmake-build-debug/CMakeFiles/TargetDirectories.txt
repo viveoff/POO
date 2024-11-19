@@ -4,5 +4,11 @@
 /Users/vladshorodok/Desktop/Home/University/POO/cmake-build-debug/CMakeFiles/Student.dir
 /Users/vladshorodok/Desktop/Home/University/POO/cmake-build-debug/CMakeFiles/Laptop.dir
 /Users/vladshorodok/Desktop/Home/University/POO/cmake-build-debug/CMakeFiles/Patrat.dir
+/Users/vladshorodok/Desktop/Home/University/POO/cmake-build-debug/CMakeFiles/Complex.dir
+/Users/vladshorodok/Desktop/Home/University/POO/cmake-build-debug/CMakeFiles/xyz.dir
+/Users/vladshorodok/Desktop/Home/University/POO/cmake-build-debug/CMakeFiles/Vector.dir
+/Users/vladshorodok/Desktop/Home/University/POO/cmake-build-debug/CMakeFiles/Masina.dir
+/Users/vladshorodok/Desktop/Home/University/POO/cmake-build-debug/CMakeFiles/Country.dir
+/Users/vladshorodok/Desktop/Home/University/POO/cmake-build-debug/CMakeFiles/Human.dir
 /Users/vladshorodok/Desktop/Home/University/POO/cmake-build-debug/CMakeFiles/edit_cache.dir
 /Users/vladshorodok/Desktop/Home/University/POO/cmake-build-debug/CMakeFiles/rebuild_cache.dir

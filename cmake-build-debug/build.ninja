@@ -274,6 +274,222 @@ build Patrat: CXX_EXECUTABLE_LINKER__Patrat_Debug CMakeFiles/Patrat.dir/Test/Pat
   TARGET_FILE = Patrat
   TARGET_PDB = Patrat.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target Complex
+
+
+#############################################
+# Order-only phony target for Complex
+
+build cmake_object_order_depends_target_Complex: phony || .
+
+build CMakeFiles/Complex.dir/Lab_06/main.cpp.o: CXX_COMPILER__Complex_unscanned_Debug /Users/vladshorodok/Desktop/Home/University/POO/Lab_06/main.cpp || cmake_object_order_depends_target_Complex
+  DEP_FILE = CMakeFiles/Complex.dir/Lab_06/main.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -mmacosx-version-min=15.0 -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/Complex.dir
+  OBJECT_FILE_DIR = CMakeFiles/Complex.dir/Lab_06
+
+build CMakeFiles/Complex.dir/Lab_06/Complex.cpp.o: CXX_COMPILER__Complex_unscanned_Debug /Users/vladshorodok/Desktop/Home/University/POO/Lab_06/Complex.cpp || cmake_object_order_depends_target_Complex
+  DEP_FILE = CMakeFiles/Complex.dir/Lab_06/Complex.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -mmacosx-version-min=15.0 -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/Complex.dir
+  OBJECT_FILE_DIR = CMakeFiles/Complex.dir/Lab_06
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Complex
+
+
+#############################################
+# Link the executable Complex
+
+build Complex: CXX_EXECUTABLE_LINKER__Complex_Debug CMakeFiles/Complex.dir/Lab_06/main.cpp.o CMakeFiles/Complex.dir/Lab_06/Complex.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -mmacosx-version-min=15.0
+  OBJECT_DIR = CMakeFiles/Complex.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = Complex
+  TARGET_PDB = Complex.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target xyz
+
+
+#############################################
+# Order-only phony target for xyz
+
+build cmake_object_order_depends_target_xyz: phony || .
+
+build CMakeFiles/xyz.dir/Test/xyz/main.cpp.o: CXX_COMPILER__xyz_unscanned_Debug /Users/vladshorodok/Desktop/Home/University/POO/Test/xyz/main.cpp || cmake_object_order_depends_target_xyz
+  DEP_FILE = CMakeFiles/xyz.dir/Test/xyz/main.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -mmacosx-version-min=15.0 -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/xyz.dir
+  OBJECT_FILE_DIR = CMakeFiles/xyz.dir/Test/xyz
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target xyz
+
+
+#############################################
+# Link the executable xyz
+
+build xyz: CXX_EXECUTABLE_LINKER__xyz_Debug CMakeFiles/xyz.dir/Test/xyz/main.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -mmacosx-version-min=15.0
+  OBJECT_DIR = CMakeFiles/xyz.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = xyz
+  TARGET_PDB = xyz.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Vector
+
+
+#############################################
+# Order-only phony target for Vector
+
+build cmake_object_order_depends_target_Vector: phony || .
+
+build CMakeFiles/Vector.dir/Test/Vector/main.cpp.o: CXX_COMPILER__Vector_unscanned_Debug /Users/vladshorodok/Desktop/Home/University/POO/Test/Vector/main.cpp || cmake_object_order_depends_target_Vector
+  DEP_FILE = CMakeFiles/Vector.dir/Test/Vector/main.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -mmacosx-version-min=15.0 -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/Vector.dir
+  OBJECT_FILE_DIR = CMakeFiles/Vector.dir/Test/Vector
+
+build CMakeFiles/Vector.dir/Test/Vector/Vector.cpp.o: CXX_COMPILER__Vector_unscanned_Debug /Users/vladshorodok/Desktop/Home/University/POO/Test/Vector/Vector.cpp || cmake_object_order_depends_target_Vector
+  DEP_FILE = CMakeFiles/Vector.dir/Test/Vector/Vector.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -mmacosx-version-min=15.0 -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/Vector.dir
+  OBJECT_FILE_DIR = CMakeFiles/Vector.dir/Test/Vector
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Vector
+
+
+#############################################
+# Link the executable Vector
+
+build Vector: CXX_EXECUTABLE_LINKER__Vector_Debug CMakeFiles/Vector.dir/Test/Vector/main.cpp.o CMakeFiles/Vector.dir/Test/Vector/Vector.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -mmacosx-version-min=15.0
+  OBJECT_DIR = CMakeFiles/Vector.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = Vector
+  TARGET_PDB = Vector.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Masina
+
+
+#############################################
+# Order-only phony target for Masina
+
+build cmake_object_order_depends_target_Masina: phony || .
+
+build CMakeFiles/Masina.dir/Test/Masina/main.cpp.o: CXX_COMPILER__Masina_unscanned_Debug /Users/vladshorodok/Desktop/Home/University/POO/Test/Masina/main.cpp || cmake_object_order_depends_target_Masina
+  DEP_FILE = CMakeFiles/Masina.dir/Test/Masina/main.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -mmacosx-version-min=15.0 -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/Masina.dir
+  OBJECT_FILE_DIR = CMakeFiles/Masina.dir/Test/Masina
+
+build CMakeFiles/Masina.dir/Test/Masina/Masina.cpp.o: CXX_COMPILER__Masina_unscanned_Debug /Users/vladshorodok/Desktop/Home/University/POO/Test/Masina/Masina.cpp || cmake_object_order_depends_target_Masina
+  DEP_FILE = CMakeFiles/Masina.dir/Test/Masina/Masina.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -mmacosx-version-min=15.0 -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/Masina.dir
+  OBJECT_FILE_DIR = CMakeFiles/Masina.dir/Test/Masina
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Masina
+
+
+#############################################
+# Link the executable Masina
+
+build Masina: CXX_EXECUTABLE_LINKER__Masina_Debug CMakeFiles/Masina.dir/Test/Masina/main.cpp.o CMakeFiles/Masina.dir/Test/Masina/Masina.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -mmacosx-version-min=15.0
+  OBJECT_DIR = CMakeFiles/Masina.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = Masina
+  TARGET_PDB = Masina.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Country
+
+
+#############################################
+# Order-only phony target for Country
+
+build cmake_object_order_depends_target_Country: phony || .
+
+build CMakeFiles/Country.dir/Test/Country/main.cpp.o: CXX_COMPILER__Country_unscanned_Debug /Users/vladshorodok/Desktop/Home/University/POO/Test/Country/main.cpp || cmake_object_order_depends_target_Country
+  DEP_FILE = CMakeFiles/Country.dir/Test/Country/main.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -mmacosx-version-min=15.0 -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/Country.dir
+  OBJECT_FILE_DIR = CMakeFiles/Country.dir/Test/Country
+
+build CMakeFiles/Country.dir/Test/Country/Country.cpp.o: CXX_COMPILER__Country_unscanned_Debug /Users/vladshorodok/Desktop/Home/University/POO/Test/Country/Country.cpp || cmake_object_order_depends_target_Country
+  DEP_FILE = CMakeFiles/Country.dir/Test/Country/Country.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -mmacosx-version-min=15.0 -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/Country.dir
+  OBJECT_FILE_DIR = CMakeFiles/Country.dir/Test/Country
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Country
+
+
+#############################################
+# Link the executable Country
+
+build Country: CXX_EXECUTABLE_LINKER__Country_Debug CMakeFiles/Country.dir/Test/Country/main.cpp.o CMakeFiles/Country.dir/Test/Country/Country.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -mmacosx-version-min=15.0
+  OBJECT_DIR = CMakeFiles/Country.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = Country
+  TARGET_PDB = Country.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Human
+
+
+#############################################
+# Order-only phony target for Human
+
+build cmake_object_order_depends_target_Human: phony || .
+
+build CMakeFiles/Human.dir/Test/Human/main.cpp.o: CXX_COMPILER__Human_unscanned_Debug /Users/vladshorodok/Desktop/Home/University/POO/Test/Human/main.cpp || cmake_object_order_depends_target_Human
+  DEP_FILE = CMakeFiles/Human.dir/Test/Human/main.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -mmacosx-version-min=15.0 -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/Human.dir
+  OBJECT_FILE_DIR = CMakeFiles/Human.dir/Test/Human
+
+build CMakeFiles/Human.dir/Test/Human/Human.cpp.o: CXX_COMPILER__Human_unscanned_Debug /Users/vladshorodok/Desktop/Home/University/POO/Test/Human/Human.cpp || cmake_object_order_depends_target_Human
+  DEP_FILE = CMakeFiles/Human.dir/Test/Human/Human.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -mmacosx-version-min=15.0 -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/Human.dir
+  OBJECT_FILE_DIR = CMakeFiles/Human.dir/Test/Human
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Human
+
+
+#############################################
+# Link the executable Human
+
+build Human: CXX_EXECUTABLE_LINKER__Human_Debug CMakeFiles/Human.dir/Test/Human/main.cpp.o CMakeFiles/Human.dir/Test/Human/Human.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -mmacosx-version-min=15.0
+  OBJECT_DIR = CMakeFiles/Human.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = Human
+  TARGET_PDB = Human.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -308,7 +524,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/vladshorodok/Desktop/Home/University/POO/cmake-build-debug
 
-build all: phony Lab_3 Lab_5 Student_Exemplu Student Laptop Patrat
+build all: phony Lab_3 Lab_5 Student_Exemplu Student Laptop Patrat Complex xyz Vector Masina Country Human
 
 # =============================================================================
 # Built-in targets
