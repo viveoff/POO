@@ -19,6 +19,7 @@ public:
     char *getGrupa();
     double getMedia();
     void afisare();
+    void citire();
 };
 
 

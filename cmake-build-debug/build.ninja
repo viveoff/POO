@@ -295,6 +295,12 @@ build CMakeFiles/Complex.dir/Lab_06/Complex.cpp.o: CXX_COMPILER__Complex_unscann
   OBJECT_DIR = CMakeFiles/Complex.dir
   OBJECT_FILE_DIR = CMakeFiles/Complex.dir/Lab_06
 
+build CMakeFiles/Complex.dir/Test/Aniaml/main.cpp.o: CXX_COMPILER__Complex_unscanned_Debug /Users/vladshorodok/Desktop/Home/University/POO/Test/Aniaml/main.cpp || cmake_object_order_depends_target_Complex
+  DEP_FILE = CMakeFiles/Complex.dir/Test/Aniaml/main.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -mmacosx-version-min=15.0 -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/Complex.dir
+  OBJECT_FILE_DIR = CMakeFiles/Complex.dir/Test/Aniaml
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Complex
@@ -303,7 +309,7 @@ build CMakeFiles/Complex.dir/Lab_06/Complex.cpp.o: CXX_COMPILER__Complex_unscann
 #############################################
 # Link the executable Complex
 
-build Complex: CXX_EXECUTABLE_LINKER__Complex_Debug CMakeFiles/Complex.dir/Lab_06/main.cpp.o CMakeFiles/Complex.dir/Lab_06/Complex.cpp.o
+build Complex: CXX_EXECUTABLE_LINKER__Complex_Debug CMakeFiles/Complex.dir/Lab_06/main.cpp.o CMakeFiles/Complex.dir/Lab_06/Complex.cpp.o CMakeFiles/Complex.dir/Test/Aniaml/main.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -mmacosx-version-min=15.0
   OBJECT_DIR = CMakeFiles/Complex.dir
   POST_BUILD = :
@@ -490,6 +496,43 @@ build Human: CXX_EXECUTABLE_LINKER__Human_Debug CMakeFiles/Human.dir/Test/Human/
   TARGET_FILE = Human
   TARGET_PDB = Human.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target Aniaml
+
+
+#############################################
+# Order-only phony target for Aniaml
+
+build cmake_object_order_depends_target_Aniaml: phony || .
+
+build CMakeFiles/Aniaml.dir/Test/Aniaml/main.cpp.o: CXX_COMPILER__Aniaml_unscanned_Debug /Users/vladshorodok/Desktop/Home/University/POO/Test/Aniaml/main.cpp || cmake_object_order_depends_target_Aniaml
+  DEP_FILE = CMakeFiles/Aniaml.dir/Test/Aniaml/main.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -mmacosx-version-min=15.0 -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/Aniaml.dir
+  OBJECT_FILE_DIR = CMakeFiles/Aniaml.dir/Test/Aniaml
+
+build CMakeFiles/Aniaml.dir/Test/Aniaml/Aniaml.cpp.o: CXX_COMPILER__Aniaml_unscanned_Debug /Users/vladshorodok/Desktop/Home/University/POO/Test/Aniaml/Aniaml.cpp || cmake_object_order_depends_target_Aniaml
+  DEP_FILE = CMakeFiles/Aniaml.dir/Test/Aniaml/Aniaml.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -mmacosx-version-min=15.0 -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/Aniaml.dir
+  OBJECT_FILE_DIR = CMakeFiles/Aniaml.dir/Test/Aniaml
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Aniaml
+
+
+#############################################
+# Link the executable Aniaml
+
+build Aniaml: CXX_EXECUTABLE_LINKER__Aniaml_Debug CMakeFiles/Aniaml.dir/Test/Aniaml/main.cpp.o CMakeFiles/Aniaml.dir/Test/Aniaml/Aniaml.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -mmacosx-version-min=15.0
+  OBJECT_DIR = CMakeFiles/Aniaml.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = Aniaml
+  TARGET_PDB = Aniaml.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -524,7 +567,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/vladshorodok/Desktop/Home/University/POO/cmake-build-debug
 
-build all: phony Lab_3 Lab_5 Student_Exemplu Student Laptop Patrat Complex xyz Vector Masina Country Human
+build all: phony Lab_3 Lab_5 Student_Exemplu Student Laptop Patrat Complex xyz Vector Masina Country Human Aniaml
 
 # =============================================================================
 # Built-in targets

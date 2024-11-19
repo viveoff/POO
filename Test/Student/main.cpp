@@ -9,6 +9,11 @@ int main() {
     s1.setMedia(9.99);
     s1.afisare();
 
+    Student s2;
+    cout << "Introdu: " << endl;
+    s2.citire();
+    s2.afisare();
+
     return 0;
 }
 

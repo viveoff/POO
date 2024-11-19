@@ -23,7 +23,8 @@ add_executable(Patrat Test/Patrat/main.cpp
         Test/Patrat/patrat.h
         Test/Patrat/patrat.cpp)
 add_executable(Complex Lab_06/main.cpp
-        Lab_06/Complex.cpp)
+        Lab_06/Complex.cpp
+        Test/Aniaml/main.cpp)
 add_executable(xyz Test/xyz/main.cpp)
 add_executable(Vector Test/Vector/main.cpp
         Test/Vector/Vector.cpp
@@ -37,3 +38,6 @@ add_executable(Country Test/Country/main.cpp
 add_executable(Human Test/Human/main.cpp
         Test/Human/Human.cpp
         Test/Human/Human.h)
+add_executable(Aniaml Test/Aniaml/main.cpp
+        Test/Aniaml/Aniaml.cpp
+        Test/Aniaml/Aniaml.h)

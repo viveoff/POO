@@ -56,5 +56,29 @@ void Student::afisare() {
 
 }
 
+void Student::citire() {
+    char* temp;
+
+    // Citire nume
+    cout << "Introduceți numele studentului: ";
+    temp = new char[100];
+    cin.getline(temp, 100);
+    setNume(temp);
+    delete[] temp;
+
+    // Citire grupă
+    cout << "Introduceți grupa studentului: ";
+    temp = new char[100];
+    cin.getline(temp, 100);
+    setGrupa(temp);
+    delete[] temp;
+
+    // Citire media
+    cout << "Introduceți media studentului: ";
+    cin >> media;
+    cin.ignore(); // Curățăm buffer-ul
+}
+
+
 
 

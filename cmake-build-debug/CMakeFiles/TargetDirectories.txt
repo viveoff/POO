@@ -10,5 +10,6 @@
 /Users/vladshorodok/Desktop/Home/University/POO/cmake-build-debug/CMakeFiles/Masina.dir
 /Users/vladshorodok/Desktop/Home/University/POO/cmake-build-debug/CMakeFiles/Country.dir
 /Users/vladshorodok/Desktop/Home/University/POO/cmake-build-debug/CMakeFiles/Human.dir
+/Users/vladshorodok/Desktop/Home/University/POO/cmake-build-debug/CMakeFiles/Aniaml.dir
 /Users/vladshorodok/Desktop/Home/University/POO/cmake-build-debug/CMakeFiles/edit_cache.dir
 /Users/vladshorodok/Desktop/Home/University/POO/cmake-build-debug/CMakeFiles/rebuild_cache.dir
