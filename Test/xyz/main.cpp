@@ -2,7 +2,7 @@
 // Created by Vlad Shorodok on 18.11.2024.
 //
 #include <iostream>
-#include "xyz/xyz.h"
+#include "xyz.h"
 using namespace std;
 
 int main() {

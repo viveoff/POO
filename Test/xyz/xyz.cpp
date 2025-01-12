@@ -3,7 +3,7 @@
 //
 #include <iostream>
 using namespace std;
-#include "xyz/xyz.h"
+#include "xyz.h"
 
 xyz::xyz(char *a, int b) {
     this->a = new char[strlen(a) + 1];

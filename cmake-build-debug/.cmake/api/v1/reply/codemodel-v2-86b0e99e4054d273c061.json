@@ -27,7 +27,9 @@
 						9,
 						10,
 						11,
-						12
+						12,
+						13,
+						14
 					]
 				}
 			],
@@ -54,7 +56,9 @@
 						9,
 						10,
 						11,
-						12
+						12,
+						13,
+						14
 					]
 				}
 			],
@@ -118,6 +122,13 @@
 				},
 				{
 					"directoryIndex" : 0,
+					"id" : "MySegment::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-MySegment-Debug-a58c749d7fd34e1342aa.json",
+					"name" : "MySegment",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
 					"id" : "Patrat::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-Patrat-Debug-13dc7b2af960c24874ba.json",
 					"name" : "Patrat",
@@ -135,6 +146,13 @@
 					"id" : "Student_Exemplu::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-Student_Exemplu-Debug-b50f6e3536477d8efbdf.json",
 					"name" : "Student_Exemplu",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "SupraDef::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-SupraDef-Debug-acebab340781be4074e0.json",
+					"name" : "SupraDef",
 					"projectIndex" : 0
 				},
 				{

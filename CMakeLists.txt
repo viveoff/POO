@@ -41,3 +41,6 @@ add_executable(Human Test/Human/main.cpp
 add_executable(Aniaml Test/Aniaml/main.cpp
         Test/Aniaml/Aniaml.cpp
         Test/Aniaml/Aniaml.h)
+add_executable(MySegment Test/MySegment/main.cpp
+        Test/MySegment/MySegment.cpp)
+add_executable(SupraDef SupraDefinireaOp/main.cpp)

@@ -533,6 +533,74 @@ build Aniaml: CXX_EXECUTABLE_LINKER__Aniaml_Debug CMakeFiles/Aniaml.dir/Test/Ani
   TARGET_FILE = Aniaml
   TARGET_PDB = Aniaml.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target MySegment
+
+
+#############################################
+# Order-only phony target for MySegment
+
+build cmake_object_order_depends_target_MySegment: phony || .
+
+build CMakeFiles/MySegment.dir/Test/MySegment/main.cpp.o: CXX_COMPILER__MySegment_unscanned_Debug /Users/vladshorodok/Desktop/Home/University/POO/Test/MySegment/main.cpp || cmake_object_order_depends_target_MySegment
+  DEP_FILE = CMakeFiles/MySegment.dir/Test/MySegment/main.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -mmacosx-version-min=15.0 -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/MySegment.dir
+  OBJECT_FILE_DIR = CMakeFiles/MySegment.dir/Test/MySegment
+
+build CMakeFiles/MySegment.dir/Test/MySegment/MySegment.cpp.o: CXX_COMPILER__MySegment_unscanned_Debug /Users/vladshorodok/Desktop/Home/University/POO/Test/MySegment/MySegment.cpp || cmake_object_order_depends_target_MySegment
+  DEP_FILE = CMakeFiles/MySegment.dir/Test/MySegment/MySegment.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -mmacosx-version-min=15.0 -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/MySegment.dir
+  OBJECT_FILE_DIR = CMakeFiles/MySegment.dir/Test/MySegment
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target MySegment
+
+
+#############################################
+# Link the executable MySegment
+
+build MySegment: CXX_EXECUTABLE_LINKER__MySegment_Debug CMakeFiles/MySegment.dir/Test/MySegment/main.cpp.o CMakeFiles/MySegment.dir/Test/MySegment/MySegment.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -mmacosx-version-min=15.0
+  OBJECT_DIR = CMakeFiles/MySegment.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = MySegment
+  TARGET_PDB = MySegment.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target SupraDef
+
+
+#############################################
+# Order-only phony target for SupraDef
+
+build cmake_object_order_depends_target_SupraDef: phony || .
+
+build CMakeFiles/SupraDef.dir/SupraDefinireaOp/main.cpp.o: CXX_COMPILER__SupraDef_unscanned_Debug /Users/vladshorodok/Desktop/Home/University/POO/SupraDefinireaOp/main.cpp || cmake_object_order_depends_target_SupraDef
+  DEP_FILE = CMakeFiles/SupraDef.dir/SupraDefinireaOp/main.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -mmacosx-version-min=15.0 -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/SupraDef.dir
+  OBJECT_FILE_DIR = CMakeFiles/SupraDef.dir/SupraDefinireaOp
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target SupraDef
+
+
+#############################################
+# Link the executable SupraDef
+
+build SupraDef: CXX_EXECUTABLE_LINKER__SupraDef_Debug CMakeFiles/SupraDef.dir/SupraDefinireaOp/main.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -mmacosx-version-min=15.0
+  OBJECT_DIR = CMakeFiles/SupraDef.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = SupraDef
+  TARGET_PDB = SupraDef.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -567,7 +635,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/vladshorodok/Desktop/Home/University/POO/cmake-build-debug
 
-build all: phony Lab_3 Lab_5 Student_Exemplu Student Laptop Patrat Complex xyz Vector Masina Country Human Aniaml
+build all: phony Lab_3 Lab_5 Student_Exemplu Student Laptop Patrat Complex xyz Vector Masina Country Human Aniaml MySegment SupraDef
 
 # =============================================================================
 # Built-in targets
